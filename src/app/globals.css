@@ -85,3 +85,10 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg-grid-white{
+  background-image: linear-gradient(rgba(255, 255, 255, .2) .1em, transparent .1em), linear-gradient(90deg, rgba(255, 255, 255, .2) .1em, transparent .1em);
+  background-size: 3em 3em;
+}
+
+/* background-image: linear-gradient(rgba(255, 255, 255, .2) .1em, transparent .1em), linear-gradient(90deg, rgba(255, 255, 255, .2) .1em, transparent .1em);
+  background-size: 3em 3em; */
