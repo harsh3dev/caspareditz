@@ -17,7 +17,7 @@ function Navbar() {
       <div className='flex justify-between items-center cursor-pointer '>
             <ul className='flex justify-around items-center w-full gap-8'>
                 {navItems.map((item)=>(
-                    <li className='cursor-pointer' key={item}>
+                    <li className='cursor-pointer hover:text-cyan-400 ' key={item}>
                       <Link key={item} href="">{item}</Link>
                     </li>
                 ))}
