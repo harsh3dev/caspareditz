@@ -4,6 +4,7 @@ import { ContainerScroll } from "../ui/container-scroll-animation";
 import VideoComp from '../VideoComp/VideoComp'
 import { motion, Variants } from 'framer-motion'
 import { AnimatedGradientTextDemo } from "./AnimatedGradientTextDemo";
+import { CtaBtn } from "../Navbar/CtaBtn";
 
 export function Hero() {
 
@@ -50,7 +51,10 @@ export function Hero() {
         }
       >
         <VideoComp  />
+        
       </ContainerScroll>
+
+      
     </div>
   );
 }
