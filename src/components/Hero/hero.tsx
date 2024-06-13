@@ -5,22 +5,21 @@ import VideoComp from '../VideoComp/VideoComp'
 import { motion, Variants } from 'framer-motion'
 import { AnimatedGradientTextDemo } from "./AnimatedGradientTextDemo";
 import { CtaBtn } from "../Navbar/CtaBtn";
+import BlurIn from "../magicui/blur-in";
 
 export function Hero() {
 
   const fadeinAnimation: Variants = {
     hidden: {
       opacity: 1,
-      y: 0,
-      filter: "blur(0.5rem)",
+      filter: "blur(10px)",
     },
     show: {
       opacity: 1,
-      y: 0,
       filter: "blur(0)",
       transition: {
         staggerChildren: 0.3,
-        duration: 0.7,
+        duration: 1,
         ease: "easeIn",
       }
     },
@@ -29,6 +28,7 @@ export function Hero() {
   return (
     <div className="flex flex-col gap-0 overflow-hidden">
       <AnimatedGradientTextDemo/>
+      
       <ContainerScroll
         titleComponent={
           <motion.div
