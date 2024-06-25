@@ -27,6 +27,7 @@ export function Hero() {
 
   return (
     <div className="flex flex-col gap-0 overflow-hidden">
+      
       <AnimatedGradientTextDemo/>
       
       <ContainerScroll
