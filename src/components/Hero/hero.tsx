@@ -1,11 +1,9 @@
-"use client";
+"use client"
 import React from "react";
 import { ContainerScroll } from "../ui/container-scroll-animation";
 import VideoComp from '../VideoComp/VideoComp'
 import { motion, Variants } from 'framer-motion'
 import { AnimatedGradientTextDemo } from "./AnimatedGradientTextDemo";
-import { CtaBtn } from "../Navbar/CtaBtn";
-import BlurIn from "../magicui/blur-in";
 
 export function Hero() {
 
